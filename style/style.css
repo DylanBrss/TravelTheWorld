@@ -2,4 +2,23 @@
   padding: 0;
   margin: 0;
 }
+
+* body #voyage {
+  background-color: #289DD2;
+}
+
+* body #voyage .container .row .col-4 p svg {
+  fill: #fff;
+  height: 30px;
+  width: 30px;
+}
+
+* body .card form #message {
+  height: 200px;
+  width: 100%;
+}
+
+* body .card form .btn {
+  background-color: #289DD2;
+}
 /*# sourceMappingURL=style.css.map */

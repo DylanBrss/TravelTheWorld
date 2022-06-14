@@ -1,4 +1,38 @@
-*{
+* {
     padding: 0;
     margin: 0;
+
+    body {
+        #voyage {
+            background-color: #289DD2;
+
+            .container {
+                .row {
+                    .col-4 {
+                        p {
+                            svg {
+                                fill: #fff;
+                                height: 30px;
+                                width: 30px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .card {
+            form{
+                #message{
+                    height: 200px;
+                    width: 100%;
+                }
+                .btn{
+                    background-color: #289DD2;
+
+                }
+            }
+        }
+    }
 }
