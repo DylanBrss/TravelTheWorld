@@ -46,10 +46,10 @@
                                     <a class="nav-link" aria-current="page" href="#destination">Destination</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#reservation">Réservation</a>
+                                    <a class="nav-link" aria-current="page" href="#formules">Formules</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#formules">Formules</a>
+                                    <a class="nav-link" aria-current="page" href="#reservation">Réservation</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="#contact">Contact</a>
@@ -110,7 +110,7 @@
                         </svg>
                     </p>
                     <p class="d-flex justify-content-center text-light">
-                        30 ans d'expÃ©rience
+                        30 ans d'expérience
                     </p>
                 </div>
             </div>
@@ -153,39 +153,53 @@
     <section id="formules" class="pt-md-5 pt-sm-5 pb-md-5 pb-sm-5">
         <h2 class="d-flex justify-content-center">Nos formules</h2>
         <p class="d-flex justify-content-center">exemple : tarifs pour Bora-Bora (7 jours)</p>
-        <div class="card-group mx-auto w-75 pt-5">
+        <div id="cardg" class="card-group mx-auto w-75 pt-5">
             <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title d-flex justify-content-center">Standard</h5>
+                <div id="cardb" class="card-body py-5">
+                    <div id="icon" class="d-flex justify-content-center pb-2">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3 class="card-title d-flex justify-content-center">Standard</h3>
                     <p class="card-text d-flex justify-content-center">
-                       <p class="d-flex justify-content-center">975 € TTC</p> 
-                       <p class="d-flex justify-content-center">avion + hôtel</p> 
-                       <p class="d-flex justify-content-center">repas non inclus</p> 
-                       <p class="d-flex justify-content-center">idéal pour les petits budgets</p> 
-                         </p>
-                    <button type="button" class="btn btn-primary mx-auto d-flex">Réserver</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title d-flex justify-content-center">Premium</h5>
-                    <p class="card-text"> <p class="d-flex justify-content-center">1495 € TTC</p> 
-                    <p class="d-flex justify-content-center">avion + hôtel + transport</p> 
-                    <p class="d-flex justify-content-center">repas et boissons inclus</p> 
-                    <p class="d-flex justify-content-center">circuit de découverte de l'île</p> 
-                    
+                    <p class="d-flex justify-content-center">975 € TTC</p>
+                    <p class="d-flex justify-content-center">avion + hôtel</p>
+                    <p class="d-flex justify-content-center">repas non inclus</p>
+                    <p class="d-flex justify-content-center">idéal pour les petits budgets</p>
                     </p>
                     <button type="button" class="btn btn-primary mx-auto d-flex">Réserver</button>
                 </div>
             </div>
             <div class="card">
-                <div class="card-body mx-2">
-                    <h5 class="card-title d-flex justify-content-center">Excellence</h5>
-                    <p class="card-text"><p class="card-text"> <p class="d-flex justify-content-center">2495 € TTC</p> 
-                    <p class="d-flex justify-content-center">avion + hôtel + transport + extras</p> 
-                    <p class="d-flex justify-content-center">repas et boissons inclus (à volonté)</p> 
-                    <p class="d-flex justify-content-center">circuit, tour en bateau, découverte des coutumes locales, et autres surprises</p> 
-                     </p>
+                <div id="cardb" class="card-body py-5">
+                    <div id="icon" class="d-flex justify-content-center pb-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3 class="card-title d-flex justify-content-center">Premium</h3>
+                    <p class="card-text d-flex justify-content-center">
+                    <p class="d-flex justify-content-center">1495 € TTC</p>
+                    <p class="d-flex justify-content-center">avion + hôtel + transport</p>
+                    <p class="d-flex justify-content-center">repas et boissons inclus</p>
+                    <p class="d-flex justify-content-center">circuit de découverte de l'île</p>
+                    </p>
+                    <button type="button" class="btn btn-primary mx-auto d-flex">Réserver</button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="cardb" class="card-body py-5">
+                    <div id="icon" class="d-flex justify-content-center pb-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3 class="card-title d-flex justify-content-center">Excellence</h3>
+                    <p class="card-text d-flex justify-content-center">
+                    <p class="d-flex justify-content-center">2495 € TTC</p>
+                    <p class="d-flex justify-content-center">avion + hôtel + transport + extras</p>
+                    <p class="d-flex justify-content-center">repas et boissons inclus (à volonté)</p>
+                    <p class="d-flex justify-content-center">circuit, tour en bateau, découverte des coutumes locales,
+                        et autres surprises</p>
+                    </p>
                     <button type="button" class="btn btn-primary mx-auto d-flex">Réserver</button>
                 </div>
             </div>
@@ -193,7 +207,7 @@
     </section>
 
     <!-- PARTENAIRE -->
-    <section id="partenaire" class="pt-md-3 pt-sm-2">
+    <section id="partenaire">
         <div class="container p-3">
             <div class="d-flex justify-content-around align-item-center">
                 <a href=""><i class="fa-brands fa-twitter"></i></a>
@@ -278,7 +292,7 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="d-flex pt-md-5 pt-sm-5 p-1" >
+    <section id="contact" class="d-flex pt-md-5 pt-sm-5 p-1">
         <div class="card pe-1" style="width: 50%;">
             <div class="card-body ">
                 <form>
@@ -326,7 +340,7 @@
             <div class="card">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1850.8831024947697!2d-0.9846113585145613!3d45.967444851671694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4801412f3ceb2bd1%3A0xb1733b18f08d3968!2sMICHEL%20VOYAGES%20by%20BG%20Tours!5e0!3m2!1sen!2sfr!4v1655207981760!5m2!1sen!2sfr"
-                    width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>

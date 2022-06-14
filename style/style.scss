@@ -12,10 +12,7 @@
                         width: 15%;
                     }
 
-                    i {
-                        font-size: 50px;
-                        color: white;
-                    }
+
                 }
             }
         }
@@ -39,6 +36,20 @@
             }
         }
 
+        #formules {
+            #cardg {
+                .card {
+                    #cardb {
+                        #icon {
+                            i {
+                                font-size: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         .card {
             form {
                 .btn {
@@ -52,7 +63,7 @@
             background-color: #289DD2;
         }
 
-        #footer{
+        #footer {
             background-color: #289DD2;
         }
     }
