@@ -3,6 +3,19 @@
   margin: 0;
 }
 
+* body #partenaire {
+  background-color: #289DD2;
+}
+
+* body #partenaire .container .d-flex img {
+  width: 15%;
+}
+
+* body #partenaire .container .d-flex i {
+  font-size: 50px;
+  color: black;
+}
+
 * body #voyage {
   background-color: #289DD2;
 }
