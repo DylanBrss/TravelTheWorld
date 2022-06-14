@@ -3,6 +3,13 @@
     margin: 0;
 
     body {
+        #accueil{
+            background-color: #289DD2;
+        }
+        #promo{
+            margin-top: 150px;
+            padding-top: 10px;
+        }
         #partenaire {
             background-color: #289DD2;
 
@@ -11,10 +18,9 @@
                     img {
                         width: 15%;
                     }
-
                     i {
                         font-size: 50px;
-                        color: black;
+                        color: white;
                     }
                 }
             }
@@ -39,6 +45,20 @@
             }
         }
 
+        #formules {
+            #cardg {
+                .card {
+                    #cardb {
+                        #icon {
+                            i {
+                                font-size: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         .card {
             form {
                 .btn {
@@ -49,6 +69,10 @@
         }
 
         #reservation {
+            background-color: #289DD2;
+        }
+
+        #footer {
             background-color: #289DD2;
         }
     }
