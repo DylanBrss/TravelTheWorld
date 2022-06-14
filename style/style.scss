@@ -3,6 +3,23 @@
     margin: 0;
 
     body {
+        #partenaire {
+            background-color: #289DD2;
+
+            .container {
+                .d-flex {
+                    img {
+                        width: 15%;
+                    }
+
+                    i {
+                        font-size: 50px;
+                        color: black;
+                    }
+                }
+            }
+        }
+
         #voyage {
             background-color: #289DD2;
 
@@ -23,16 +40,16 @@
         }
 
         .card {
-            form{
-                #message{
-                    height: 200px;
-                    width: 100%;
-                }
-                .btn{
+            form {
+                .btn {
                     background-color: #289DD2;
 
                 }
             }
+        }
+
+        #reservation {
+            background-color: #289DD2;
         }
     }
 }
