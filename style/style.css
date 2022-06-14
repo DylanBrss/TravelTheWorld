@@ -15,6 +15,11 @@
   width: 15%;
 }
 
+* body #partenaire .container .d-flex i {
+  font-size: 50px;
+  color: white;
+}
+
 * body #voyage {
   background-color: #289DD2;
 }
