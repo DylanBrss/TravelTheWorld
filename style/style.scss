@@ -5,6 +5,7 @@
     body {
         #voyage {
             background-color: #289DD2;
+
             .container {
                 .row {
                     .col-4 {
@@ -19,8 +20,19 @@
                     }
                 }
             }
+        }
 
+        .card {
+            form{
+                #message{
+                    height: 200px;
+                    width: 100%;
+                }
+                .btn{
+                    background-color: #289DD2;
 
+                }
+            }
         }
     }
 }
