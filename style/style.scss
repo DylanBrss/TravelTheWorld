@@ -3,6 +3,7 @@
     margin: 0;
 
     body {
+        width: 100vw;
         #accueil {
             background-color: #289DD2;
 
@@ -35,8 +36,8 @@
 
         #contact {
             iframe {
-                width: 50vw;
-                height: 70vh;
+                width: 49vw;
+                height: 75vh;
             }
         }
 
