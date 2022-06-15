@@ -38,9 +38,6 @@
                                     <a class="nav-link" aria-current="page" href="#accueil">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#voyage">Voyage</a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="#destination">Destination</a>
                                 </li>
                                 <li class="nav-item">
@@ -151,9 +148,10 @@
     <section id="formules" class="pt-5 pb-5">
         <h2 class="d-flex justify-content-center">Nos formules</h2>
         <p class="d-flex justify-content-center">exemple : tarifs pour Bora-Bora (7 jours)</p>
-        <div id="cardg" class="card-group mx-auto w-75 pt-5">
-            <div class="card">
-                <div id="cardb" class="card-body py-5">
+        <div id="cardg" class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
                     <div id="icon" class="d-flex justify-content-center pb-2">
                         <i class="fa-regular fa-star"></i>
                     </div>
@@ -163,12 +161,16 @@
                     <p class="d-flex justify-content-center">avion + hôtel</p>
                     <p class="d-flex justify-content-center">repas non inclus</p>
                     <p class="d-flex justify-content-center">idéal pour les petits budgets</p>
-                    </p>
-                    <button type="button" class="btn btn-primary mx-auto d-flex">Réserver</button>
+                    </p> 
+                    <a href="#reservation">
+                        <button type="button" class="btn btn-primary mx-auto d-flex">Réserver</button>
+                        </a>
                 </div>
+              </div>
             </div>
-            <div class="card">
-                <div id="cardb" class="card-body py-5">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
                     <div id="icon" class="d-flex justify-content-center pb-2">
                         <i class="fa-regular fa-star"></i>
                         <i class="fa-regular fa-star"></i>
@@ -180,11 +182,15 @@
                     <p class="d-flex justify-content-center">repas et boissons inclus</p>
                     <p class="d-flex justify-content-center">circuit de découverte de l'île</p>
                     </p>
+                    <a href="#reservation">
                     <button type="button" class="btn btn-primary mx-auto d-flex">Réserver</button>
+                    </a>
                 </div>
+              </div>
             </div>
-            <div class="card">
-                <div id="cardb" class="card-body py-5">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
                     <div id="icon" class="d-flex justify-content-center pb-2">
                         <i class="fa-regular fa-star"></i>
                         <i class="fa-regular fa-star"></i>
@@ -198,10 +204,13 @@
                     <p class="d-flex justify-content-center">circuit, tour en bateau, découverte des coutumes locales,
                         et autres surprises</p>
                     </p>
+                    <a href="#reservation">
                     <button type="button" class="btn btn-primary mx-auto d-flex">Réserver</button>
+                    </a>
                 </div>
+              </div>
             </div>
-        </div>
+          </div>
     </section>
 
     <!-- PARTENAIRE -->
@@ -215,7 +224,7 @@
     </section>
 
     <!-- RESERVATION -->
-    <section id="reservation " class="d-flex justify-content-center pt-5">
+    <section id="reservation" class="d-flex justify-content-center pt-5">
         <div class="card" style="width: 50%;">
             <div class="card-body">
                 <form>

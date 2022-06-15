@@ -12,6 +12,7 @@
 }
 
 * body #promo {
+  text-align: center;
   margin-top: 150px;
   padding-top: 10px;
 }
@@ -44,15 +45,16 @@
   width: 30px;
 }
 
-* body #formules #cardg .card #cardb #icon i {
+* body #formules #cardg .col .card .card-body {
+  min-height: 50vh;
+  text-align: center;
+}
+
+* body #formules #cardg .col .card .card-body #icon i {
   font-size: 50px;
 }
 
 * body .card form .btn {
-  background-color: #289DD2;
-}
-
-* body #reservation {
   background-color: #289DD2;
 }
 
